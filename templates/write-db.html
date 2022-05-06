@@ -1,0 +1,13 @@
+<a href="/"><button>Home</button></a>
+<a href="/init"><button>New Database</button></a>
+<a href="/write"><button>Add Data</button></a>
+<a href="/read"><button>Display Data</button></a>
+
+<form method = "POST">
+    <p>Name <input type = "text" name = "name" /></p>
+    <p>Description <input type = "text" name = "description" /></p>
+    <p><input type = "submit" value = "Submit" /></p>
+</form>
+<p>
+    {{dump | safe}}
+</p>
